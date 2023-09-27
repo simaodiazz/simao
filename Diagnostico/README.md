@@ -163,3 +163,29 @@ int main()
 }
 ```
 
+# Exercicio 5
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    double cos1, cos2;
+
+    cout << "Digite o valor do primeiro cateto: ";
+    cin >> cos1;
+
+    cout << "Digite o valor do segundo cateto: ";
+    cin >> cos2;
+
+    double hip = sqrt(cos1 * cos1 + cos2 * cos2);
+    double area = 0.5 * cos1 * cos2;
+
+    cout << "A hipotenusa do triangulo e: " << hip << endl;
+    cout << "A area do triangulo e: " << area << endl;
+
+    return 0;
+}
+```
